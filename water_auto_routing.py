@@ -180,7 +180,7 @@ with charts:
         titleFontSize=14
     ).configure_legend(
         titleFontSize=14,
-        labelFontSize=12
+        labelFontSize=14
     )
     
     # Display the plot in Streamlit
