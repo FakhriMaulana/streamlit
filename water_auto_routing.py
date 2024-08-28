@@ -135,7 +135,7 @@ benchmark_revenue = quantity * np.sum(MDR_values * penalized_SR_values * default
 optimal_revenue = quantity * np.sum(MDR_values * penalized_SR_values * p_x.value)
 different_revenue = optimal_revenue - benchmark_revenue
 
-# st.write("---")
+st.write("---")
 # MAIN LAYOUT 
 charts, dataframes = st.columns([2, 2])
 with charts:
