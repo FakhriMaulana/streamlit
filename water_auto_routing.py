@@ -4,7 +4,7 @@ import numpy as np
 import cvxpy as cp
 import altair as alt
 
-st.set_page_config(page_title="Water Optimization", page_icon=:droplet:)
+st.set_page_config(page_title="Water Optimization", page_icon=":droplet:")
 # Set up layout
 st.set_option('deprecation.showPyplotGlobalUse', False)
 st.set_page_config(layout='wide')
